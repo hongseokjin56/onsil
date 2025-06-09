@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+*{margin:0; padding:0;}
+ul{list-style:none;}
+a{text-decoration:none; color:black;}
+img{border:0; vertical-align: top;}
+
+body {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+#footer{
+    width:100%; height:350px;
+    background-color: #8b9773;
+}
+#footer .f_cont{
+    width:1600px; height:350px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer .f_cont .f_info{
+    text-align: right;
+    font-weight: 300;
+}
+#footer .f_cont .f_info>li{
+    line-height: 40px;
+    font-size: 18px;
+    color:#ffffff;
+}
+
+@media all and (min-width:1301px) and (max-width:1650px){
+    #footer .f_cont{
+        width:1300px;
+    }
+}
+
+@media all and (min-width:1025px) and (max-width:1300px){
+    #footer .f_cont{
+        width:1000px;
+    }
+}
+
+@media all and (min-width:769px) and (max-width:1024px){
+    #footer .f_cont{
+        width:800px;
+    }
+}
+
+@media all and (min-width:650px) and (max-width:768px){
+    #footer .f_cont{
+        width:600px;
+    }
+}
+
+@media all and (max-width:651px){
+    #footer{
+        height:430px;
+    }
+    #footer .f_cont{
+        width:500px;
+        display: block;
+        padding-top:50px;
+        box-sizing: border-box;
+    }
+    #footer .f_cont .f_info{
+        text-align: left;
+        margin-top:30px;
+    }
+}
