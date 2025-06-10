@@ -3,7 +3,9 @@
 ul{list-style: none;}
 a{color: black; text-decoration: none;}
 img{vertical-align: none; border: 0;}
-
+body{
+    font-family: 'Pretendard-Regular';
+}
 
 
 
@@ -109,7 +111,7 @@ img{vertical-align: none; border: 0;}
 }
 #section .sel_item .item_sel>li img{
   width: 100px; height: 100px;
-  margin-top: 15px;
+  margin: 15px 0px;
   margin-left: 100px;
 }
 #section .sel_item .item_sel>li:nth-child(3){

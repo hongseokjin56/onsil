@@ -4,7 +4,9 @@
 ul{list-style: none;}
 a{color: black; text-decoration: none;}
 img{vertical-align: none; border: 0;}
-
+body{
+    font-family: 'Pretendard-Regular';
+}
 
 
 

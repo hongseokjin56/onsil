@@ -4,3 +4,282 @@
 ul{list-style:none;}
 a{text-decoration:none; color:black;}
 img{border:0; vertical-align: top;}
+body{
+  font-family: 'Pretendard-Regular';
+}
+
+#section .banner{
+  width: 100%; height: 600px;
+  background-image: url(../images/banner.png);
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+}
+#section .banner h1{
+  padding-top: 260px;
+  font-size: 50px;
+}
+#section .banner p{
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+#section .second_se{
+  width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+#section .second_se .left_txt h2{
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: rgb(78, 78, 78);
+}
+#section .second_se .left_txt p{
+  font-size: 21px;
+  font-weight: 400;
+  color: rgb(78, 78, 78);
+}
+#section .second_se .right_txt .img_text>li{
+  display: flex;
+  margin-top: 5px;
+}
+#section .second_se .right_txt .img_text>li p{
+  font-size: 14px;
+  line-height: 70px;
+  margin-left: 30px;
+  color: rgb(78, 78, 78);
+}
+#section .second_se .right_txt .img_text>li:nth-child(2) img{
+  width: 64px;
+}
+
+#section .thrid_se{
+  width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+  background-color: #EFEBE2;
+}
+
+#section .thrid_se .left_ti{
+  width: 400px; height: 135px;
+  text-align: center;
+  background-color: #8B9773;
+  color: white;
+}
+#section .thrid_se .left_ti h3{
+  margin-top: 35px;
+  font-size: 30px;
+}
+
+#section .thrid_se .right_text{
+  font-size: 20px;
+  font-weight: 300;
+}
+#section .thrid_se .right_text p{
+  padding: 40px 40px;
+    color: rgb(78, 78, 78);
+}
+
+#section .forth_se{
+  width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+#section .forth_se .left_imgti{
+  width: 376px; height: 520px;
+  background-image: url(../images/ChatGPTImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  margin-left: -80px;
+}
+#section .forth_se .left_imgti h5{
+  font-size: 13px;
+  margin-top: 50px;
+  margin-left: 20px;
+    color: rgb(78, 78, 78);
+}
+#section .forth_se .left_imgti h3{
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: 600;
+    color: rgb(87, 87, 87);
+}
+#section .forth_se .left_imgti p{
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 350;
+    color: rgb(78, 78, 78);
+}
+#section .forth_se .part_img{
+  margin-left: 50px;
+}
+#section .forth_se .part_img .three_img{
+  width: 800px;
+  display: flex;
+  margin-left: -300px;
+  margin-top: 40px;
+}
+#section .forth_se .part_img .three_img>li{
+  width: 250px; height: 180px;
+  margin: 10px 20px;
+  overflow: hidden;
+}
+
+#section .forth_se .part_img .three_img>li img{
+  width: 250px; height: 180px;
+    transition:  all  0.3s;
+}
+#section .forth_se .part_img .three_img>li img:hover{
+  transform: scale(1.2);
+}
+
+#section .part_send{
+  width: 100%; height: 700px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #EFEBE2;
+  box-sizing: border-box;
+}
+
+#section .part_send .left_explan h2{
+  width: 650px;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: 100px;
+    color: rgb(78, 78, 78);
+}
+#section .part_send .left_explan h4{
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 30px;
+    color: rgb(78, 78, 78);
+}
+#section .part_send .left_explan h5{
+  font-size: 18px;
+  font-weight: 350;
+  border-bottom: 1px solid gray;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+    color: rgb(78, 78, 78);
+}
+#section .part_send .left_explan .adre{
+  font-size: 18px;
+  font-weight: 250;
+    color: rgb(78, 78, 78);
+}
+
+#section .part_send .right_infor{
+  width: 700px; height: 500px;
+  margin-left: 50px;
+  padding: 40px;
+  margin-top: 60px;
+  background-color: #8B9773;
+}
+#section .part_send .right_infor h1{
+  font-size: 18px;
+  padding: 10px 0;
+  color: white;
+}
+
+#section .part_send .right_infor .top_text{
+  padding: 4px 2px 4px;
+}
+#section .part_send .right_infor .top_text .name,
+#section .part_send .right_infor .top_text .part_name,
+#section .part_send .right_infor .bottom_text .number,
+#section .part_send .right_infor .bottom_text .email
+{
+  color: white;
+  width: 290px; height: 45px;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid white;
+  background-color: #8B9773;
+  font-size: 15px;
+}
+#section .part_send .right_infor .top_text .part_name{
+  margin-left: 30px;
+}
+input::placeholder {
+	color:white;
+}
+#section .part_send .right_infor .bottom_text{
+  padding: 10px 0;
+}
+#section .part_send .right_infor .bottom_text .email{
+  margin-left: 30px;
+}
+
+#section .part_send .right_infor .infor_text h1{
+  font-size: 18px;
+  margin: 20px 40px 0 0;
+  padding: 10px 0;
+  color: white;
+}
+#section .part_send .right_infor .infor_text .in_txt .infor{
+  width: 580px; height: 90px;
+  padding: 20px;
+  line-height: 20px;
+}
+
+#section .part_send .right_infor .infor_text .agree,
+#section .part_send .right_infor .infor_text .noagree
+{
+  margin: 0px 10px 0px 5px;
+}
+
+#section .part_send .right_infor .infor_text span{
+  color: white;
+}
+
+input[type='radio'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type='radio']:checked {
+  background-color: #111;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 1px #111;
+}
+
+
+
+#section .part_send .right_infor p{
+  width: 182px; height: 42px;
+  margin: 0 auto;
+  line-height: 40px;
+  border-radius: 40px;
+  margin-top: 50px;
+  background-color: #EFEBE2;
+  text-align: center;
+
+}
+#section .part_send .right_infor p a{
+  color: black;
+}
+#section .part_send .right_infor p:hover{
+  background-color: #a4a4a4;
+}
+#section .part_send .right_infor p:hover a{
+  color: white;
+}
