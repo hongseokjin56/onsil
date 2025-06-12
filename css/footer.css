@@ -26,6 +26,9 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+#footer .f_cont .f_logo>img{
+    width:184px; height: 90px;
+}
 #footer .f_cont .f_info{
     text-align: right;
     /* border:1px solid red; */
@@ -38,12 +41,12 @@ body{
 }
 #footer .f_cont .f_info>li:nth-child(1){
     font-size: 18px;
+    font-weight: 400;
 }
-#footer .f_cont .f_info>li:nth-child(3),
-#footer .f_cont .f_info>li:nth-child(4){
+#footer .f_cont .f_info>li:nth-child(2){
     margin-bottom: -15px;
 }
-#footer .f_cont .f_info>li:nth-child(6){
+#footer .f_cont .f_info>li:nth-child(4){
     color:#d3d3d3;
 }
 
