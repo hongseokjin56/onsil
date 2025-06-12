@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>결제페이지</title>
+  <link rel="stylesheet" href="css/payment.css">
+</head>
+<body>
+  <div id="section">
+    <h1>결제하기</h1>
+    <div class="se_all">
+      <div class="left_arr">
+        <div class="sel_info">
+          <h3>주문 상품 정보</h3>
+          <div class="img_arr"><img src="images/lineup01.png" alt="">
+          <div class="img_txt">
+            <h4>유럽피언 꽃 구독 M사이즈</h4>
+            <p>사이즈: M사이즈</p>
+            <h5>39,400원</h5>
+            </div>
+          </div>
+        </div>
+
+      <div class="order_name">
+        <h3>주문자 정보</h3>
+        <div class="name_arr">
+          <div class="txt_arr">
+            <!-- 이름, 전화번호, 이메일순서로 들어가야됨 (수정버튼 클릭시 수정가능하게 변경해야됨) -->
+            <h4>김00</h4>
+            <h5>010-0000-0000</h5>
+            <h5>qonf@naver.com</h5>
+          </div>
+          <input type="button" value="수정" class="btn_fix">
+        </div>
+      </div>
+
+        <div class="deliver">
+          <h3>배송 정보</h3>
+          <div class="del_arr">
+            <div class="text_arr">
+              <h4>김00<br><span>010-0000-0000</span></h4>
+              <h4>경기도 파주시 안능안길 84 <br><span>(32651)</span></h4>
+              <h4>배송메모</h4>
+              <select name="del_memo" id="" class="memo">
+                <option value="del_memo">배송메모를 선택해주세요</option>
+                <option value="del_memo">문 앞으로 배송해주세요</option>
+                <option value="del_memo">경비실에 맡겨주세요</option>
+                <option value="del_memo">택배보관함에 넣어주세요</option>
+              </select>
+            </div>
+          <input type="button" value="변경" class="btn_fix">
+          <!-- 변경버튼 클릭시 다른 이름및 주소 등등이 변경가능할수있게 만들어야됨 -->
+          </div>
+        </div>
+
+        <div class="coupon">
+          <div class="cou_text">
+          <h4>쿠폰</h4>
+          <input type="text" class="cou_txt">
+          <input type="button" value="쿠폰적용" class="cou_btn">
+          </div>
+          <div class="cou_number">
+          <h4>쿠폰번호</h4>
+          <input type="text" placeholder="쿠폰번호를 입력해주세요" class="counum_txt">
+          <input type="button" value="번호확인" class="num_serch">
+          </div>
+          <div class="point_arr">
+          <h4>포인트</h4>
+          <input type="text" class="point_use">
+          <input type="button" value="전액사용" class="point_btn">
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="right_arr">
+        <div class="paymant">
+          <h3>최종 결제금액</h3>
+          <div class="pat_txt">
+          <h4>상품가격<p>18,000원</p></h4>
+          <h4>쿠폰할인<p>-1000원</p></h4>
+          <h4>포인트 사용<p>0원</p></h4>
+          <h4>배송비<p>+3000원</p></h4>
+        </div>
+          <div class="line"></div>
+        <div class="pay_all">
+          <h4>총 결제금액<p>20,000원</p></h4>
+        </div>
+      </div>
+        <div class="point_save"><p><span>700</span>포인트 적립예정</p></div>
+        
+      <div class="pay_method">
+  <h3>결제방법</h3>
+  <div class="pay_menuti">
+    <div class="left_pay">
+      <ul class="pay_menu">
+        <li><input type="radio" name="pay" value="card" id="pay_card" checked>신용카드</li>
+        <li><input type="radio" name="pay" value="bank" id="pay_bank">무통장입금</li>
+        <li><input type="radio" name="pay" value="kakao" id="pay_kakao">카카오페이</li>
+      </ul>
+    </div>
+    <div class="right_pay">
+      <ul class="pay_menu2">
+        <li><input type="radio" name="pay" value="phone" id="pay_phone">핸드폰결제</li>
+        <li><input type="radio" name="pay" value="virtual" id="pay_virtual">가상계좌</li>
+      </ul>
+    </div>
+
+    <ul class="pay_sub">
+      <li data-type="card">
+        <select name="card" class="card">
+          <option value="">카드를 선택해주세요</option>
+          <option value="">KB카드</option>
+          <option value="">신한카드</option>
+          <option value="">현대카드</option>
+          <option value="">삼성카드</option>
+        </select><br>
+        <select name="card" class="card">
+          <option value="">일시불</option>
+          <option value="">3개월</option>
+          <option value="">6개월</option>
+          <option value="">12개월</option>
+        </select>
+      </li>
+      <li data-type="bank">
+        <h3>00은행: 0000-00-0000 예금주명</h3>
+        <h4>입금자명</h4>
+        <p>주문 후 1시간 동안 미입금시 자동취소 됩니다.</p>
+        <input type="checkbox" name="cash" class="check">현금영수증 신청
+      </li>
+      <li data-type="kakao">
+          <p>페이머니로 7만원 이상 결제 시 3천원 할인</p>
+          <p>신한카드로 전 상품 12만원 이상 결제 시 4천원 할인</p>
+      </li>
+      <li data-type="phone">
+        <p>핸드폰결제 선택 시 통신사 인증이 필요합니다.</p>
+      </li>
+      <li data-type="virtual">
+        <select name="bank_list" class="bank_list">
+          <option value="">입금은행을 선택해주세요</option>
+          <option value="">농협은행</option>
+          <option value="">하나은행</option>
+          <option value="">케이뱅크</option>
+        </select>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="agree">
+  <input type="checkbox" id="agree_all" class="box_ti">
+  <span>전체동의</span>
+
+  <div class="line_te">
+    <div class="li_line"></div>
+    <input type="checkbox" name="agree" id="agree_one" class="box_ti">
+    <span>구매조건 확인 및 결제진행에 동의</span>
+  </div>
+</div>
+
+<div class="buy">
+  <input type="button" value="결제하기" class="buy_bt" id="buy_button" disabled>
+</div>
+
+  <script>
+      document.querySelectorAll('input[name="pay"]').forEach(function(radio) {
+    radio.addEventListener('change', function() {
+      const selectedValue = this.value;
+
+      // 모든 pay_sub의 li를 숨김
+      document.querySelectorAll('.pay_sub li').forEach(function(li) {
+        li.style.display = 'none';
+      });
+
+      // 선택된 값과 일치하는 data-type만 표시
+      document.querySelectorAll(`.pay_sub li[data-type="${selectedValue}"]`).forEach(function(li) {
+        li.style.display = 'block';
+      });
+    });
+  });
+
+    const agreeAll = document.getElementById('agree_all');
+  const buyButton = document.getElementById('buy_button');
+
+  agreeAll.addEventListener('change', function () {
+    if (this.checked) {
+      buyButton.disabled = false; // 버튼 활성화
+    } else {
+      buyButton.disabled = true;  // 버튼 비활성화
+    }
+  });
+
+  const agreeOne = document.getElementById('agree_one');
+
+agreeAll.addEventListener('change', function () {
+  agreeOne.checked = this.checked;
+});
+  </script>
+</body>
+</html>

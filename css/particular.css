@@ -6,6 +6,8 @@ a{color: black; text-decoration: none;}
 img{vertical-align: none; border: 0;}
 body{
     font-family: 'Pretendard-Regular';
+    background-color: #E5E0D8;
+      color: #191919;
 }
 
 
@@ -45,27 +47,33 @@ body{
 }
 #section .frist_se .right_text .product_na h2{
   font-size: 35px;
-  margin-left: 25px;
+  margin-left: 92px;
   margin-bottom: 30px;
 }
 
 #section .frist_se .right_text .product_na h5{
-  margin-left: 280px;
+  margin-left: 395px;
   color: #4b4a45;
   text-decoration: line-through;
+  margin-top: 10px;
 }
 #section .frist_se .right_text .product_na h4{
-  font-size: 20px;
-  margin-left: 280px;
+  font-size: 25px;
+  margin-left: 305px;
   margin-bottom: 10px;
+    color: #8B9773;
 }
 #section .frist_se .right_text .product_na h4 span{
-  font-size: 15px;
+  font-size: 17px;
   color: rgb(243, 35, 35);
   margin-right: 15px;
 }
+#section .frist_se .right_text .product_na h4 span:nth-child(2){
+  color: #8B9773;
+    font-size: 20px;
+}
 #section .frist_se .right_text .product_na p{
-  margin-left: 250px;
+  margin-left: 300px;
   font-size: 14px;
 }
 #section .frist_se .right_text .line{
@@ -74,18 +82,19 @@ body{
   border: 1px solid rgba(128, 128, 128, 0.281);
 }
 #section .frist_se .right_text .deliver .de_me{
-  width: 400px;
+  width: 450px;
   display: flex;
   border: 1px solid rgba(128, 128, 128, 0.322);
   margin-top: 20px;
   box-sizing: border-box;
   margin-bottom: 20px;
+  background-color: #f5f5f5;
 }
 #section .frist_se .right_text .deliver .de_me>li:nth-child(1){
   width: 25px; height: 28px;
-  margin-top: 12px;
+  margin-top: 7px;
   margin-left: 20px;
-  background-color: #8b97738a;
+  background-color: rgb(192, 192, 192);
   padding: 5px;
   border-radius: 50%;
 }
@@ -101,11 +110,10 @@ body{
   color: #8B9773;
   font-size: 12px;
 }
-#section .frist_se .right_text .de_acc{
-  margin-left: 5px;
-}
+
 #section .frist_se .right_text .de_acc p{
   font-size: 15px;
+  color: #4b4a45;
 }
 #section .frist_se .right_text .de_acc span{
   font-size: 12px;
@@ -127,26 +135,26 @@ body{
 
 
 #section .frist_se .right_text .de_memo .de_tex{
-  width: 440px; height: 40px;
-  border: 1px solid gray;
+  width: 450px; height: 40px;
+  border: 1px solid #D2D2D2;
   font-size: 14px;
   padding: 5px;
   margin: 5px 0px;
   box-sizing: border-box;
-  background-color: #E5E0D8;
   outline: none;
-
+  color: #949494;
 }
 #section .frist_se .right_text .de_memo>li #del_tex{
-  width: 440px; height: 40px;
-  border: 1px solid gray;
+  width: 450px; height: 40px;
+  border: 1px solid #D2D2D2;
   font-size: 14px;
   padding: 5px;
   margin: 5px 0px;
   box-sizing: border-box;
-  background-color: #E5E0D8;
   outline: none;
+  color: #7e7e7e;
 }
+
 #section .frist_se .right_text .text_arr p{
   font-size: 11px;
   margin-top: 3px;
@@ -157,24 +165,29 @@ body{
   justify-content: space-between;
   margin-top: 20px;
 }
-#section .frist_se .right_text .text_arr2 h5{
-  font-size: 13px;
-  display: flex;
+#section .frist_se .right_text .text_arr2 .amount_all{
+  color: #191919;
 }
-#section .frist_se .right_text .text_arr2 h5 p{
+#section .frist_se .right_text .text_arr2 h5{
+  font-size: 18px;
+  color: #8B9773;
+  display: flex;
+  margin-right:18px;
+}
+#section .frist_se .right_text .text_arr2 h5 span{
   height: 14px;
-  line-height: 13px;
-  font-size: 16px;
-  margin-top: 3px;
-  margin-left: 5px;
-  margin-right: 3px;
-  border-left: 1px solid gray;
-  padding-left: 5px;
+  line-height: 19px;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-right:1px solid gray;
+  padding-right: 5px;
+  color: #191919;
 }
 
 #section .frist_se .right_text .sell_txt .se_txt{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 15px;
 }
 
@@ -187,7 +200,11 @@ body{
   border: none;
   border-radius: 30px;
   line-height: 28px;
+  background-color: #F1F1F1;
+}
+#section .frist_se .right_text .sell_txt .se_txt>li .btn_sell3{
   background-color: #8B9773;
+  color: white;
 }
 #section .frist_se .right_text .sell_txt .se_txt>li .btn_sell:hover,
 #section .frist_se .right_text .sell_txt .se_txt>li .btn_sell2:hover,
@@ -198,18 +215,18 @@ body{
 }
 #section .frist_se .right_text .sell_txt .se_txt>li:nth-child(1) a{
   display: block;
-    background-color: #8B9773;
   width: 20px; height: 20px;
-  padding: 9px 9px;
   border-radius: 50%;
     line-height: 2px;
       margin-top: 5px;
+      margin-left: -10px;
+      margin-right: 10px;
 }
 #section .frist_se .right_text .sell_txt .se_txt>li:nth-child(1) a:hover{
   background-color: white;
 }
 #section .frist_se .right_text .sell_txt .se_txt>li:nth-child(1) img{
-  width: 20px; height: 20px;
+  width: 30px; height: 30px;
 }
 
 
@@ -242,13 +259,18 @@ body{
 #section .secound_se .bottom_re .reviwe .reviwe_txt h4
 {
   font-size: 14px;
+  font-weight: 400;
+  color: #4b4a45;
 }
 #section .secound_se .top_re .reviwe .reviwe_txt h5,
 #section .secound_se .bottom_re .reviwe .reviwe_txt h5
 {
   display: flex;
-  margin-top: 10px;
+  margin-top: 15px;
   font-weight: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: #4b4a45;
 }
 #section .secound_se .top_re .reviwe .reviwe_txt h5 p,
 #section .secound_se .bottom_re .reviwe .reviwe_txt h5 p
@@ -280,6 +302,8 @@ body{
 {
   line-height: 55px;
   font-size: 20px;
+  font-weight: 400;
+  color: #191919;
   margin-left: 10px;
   display: flex;
 }
@@ -297,10 +321,10 @@ body{
   width: 0px;
   height: 0px;
   margin: 25px 0;
-  color: #ffd67a;    
+  color: #EE6452;    
   border-right:11px solid transparent;
   border-left: 11px solid transparent;
-  border-bottom:8px  solid #ffd67a;    
+  border-bottom:8px  solid #EE6452;    
   transform: rotate(180deg);
 }
 #section .secound_se .top_re .star_all .star>li:before,
@@ -310,11 +334,11 @@ body{
   width: 0px;
   top: 0;
   height: 0px;
-  color: #ffd67a;    
+  color: #EE6452;    
   left: -11px;        
   border-right: 11px solid transparent;
   border-left: 11px solid transparent;
-  border-bottom: 8px solid #ffd67a;
+  border-bottom: 8px solid #EE6452;
 }
 #section .secound_se .top_re .star_all .star>li:before{
   transform: rotate(70deg);
@@ -330,11 +354,11 @@ body{
   width: 0px;
   top: 0;
   height: 0px;
-  color: #ffd67a;    
+  color: #EE6452;    
   left: -11px;        
   border-right: 11px solid transparent;
   border-left: 11px solid transparent;
-  border-bottom: 8px solid #ffd67a;
+  border-bottom: 8px solid #EE6452;
 }
 #section .secound_se .bottom_re .star_all .star>li:before{
   transform: rotate(70deg);
@@ -358,16 +382,17 @@ body{
   width: 405px; height: 50px;
   text-align: center;
   line-height: 50px;
-  background-color: #8b9773ad;
-  color: white;
+  background-color: #F1F1F1;
   box-shadow: 0px 0px 2px rgb(255, 255, 255);
 }
 #section .thrid_se .deta_gnb>.active{
   background-color: #8B9773;
+
 }
+#section .thrid_se .deta_gnb>.active a{color: white;}
 #section .thrid_se .deta_gnb>li a{
   display: block;
-  color: white;
+  color: #4b4a45;
 }
 #section .thrid_se .deta_gnb>li a:hover{
   background-color: #8B9773;
@@ -384,6 +409,8 @@ body{
 }
 #section .thrid_se .detailed .arrival_date p{
   font-size: 18px;
+  color: #4b4a45;
+  font-weight: 400;
 }
 #section .thrid_se .detailed .arrival_date p span{
   font-size: 14px;
@@ -391,25 +418,21 @@ body{
   padding: 5px 18px;
   border-radius: 30px;
   background-color: #8B9773;
+  color: white;
 }
+
 #section .thrid_se .detailed .arrival_date2{
-  text-align: center;
-  height: 35px;
-  line-height: 35px;
-  border: 1px solid rgba(128, 128, 128, 0.5);
-  font-size: 14px;
-}
-#section .thrid_se .detailed .arrival_date3{
   height: 160px;
   text-align: center;
   background-color: #8B9773;
 }
-#section .thrid_se .detailed .arrival_date3 p{
+#section .thrid_se .detailed .arrival_date2 p{
   padding-top: 40px;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.863);
+  line-height: 1.5;
 }
-#section .thrid_se .detailed .arrival_date3 p span{
+#section .thrid_se .detailed .arrival_date2 p span{
   font-size: 12px;
 }
 #section .thrid_se .detailed_img{
@@ -444,5 +467,6 @@ body{
 }
 #section .thrid_se .deta_txt .on{
   display: block;
+  color: #191919;
 }
 
